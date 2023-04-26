@@ -4,6 +4,8 @@
 
 from django.contrib import admin
 
+from .models import *
+
 @admin.register(Grid)
 class gridAdmin(admin.ModelAdmin):
     name = "name"
@@ -27,7 +29,7 @@ class avatarAdmin(admin.ModelAdmin):
     username  = "username"
     list_display = ["username","firstName","lastName"]
 
-@admin.register(AvatarRegionAssociation)
+@admin.register(OwnerRegionAssociation)
 class ownerRegionAssociationAdmin(admin.ModelAdmin):
     username = "username"
     region   = "region"
