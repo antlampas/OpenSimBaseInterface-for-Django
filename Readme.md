@@ -1,4 +1,4 @@
-#  GoGoGadget Open Simulator Manager
+#  OpenSimulator Interface for Django
 
 Author: antlampas
 Date: 2023-04-26
